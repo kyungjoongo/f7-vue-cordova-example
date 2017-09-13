@@ -1,3 +1,11 @@
+#Cordova
+cordova/platforms/
+cordova/config.xml
+cordova/package.json
+cordova/plugins/
+cordova/www/
+
+
 #IntelliJ
 .idea
 .idea/
