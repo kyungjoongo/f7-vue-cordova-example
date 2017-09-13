@@ -21,3 +21,6 @@ A full-featured Framework7 + Vue + Webpack setup with hot-reload & css extractio
 * `src/routes.js` - app routes
 * `src/app.vue` - main app structure/component
 * `src/cordova` - cordova wrapper. All cordova actions take place here. Installing plugins and building app.
+
+
+### All the credit goes for @nolimits4web & and his framework7.
