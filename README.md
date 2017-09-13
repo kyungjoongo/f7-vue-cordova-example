@@ -1,4 +1,4 @@
-# Framework7 Vue + Webpack App Template
+# Framework7 Vue + Webpack + Cordova Template
 
 A full-featured Framework7 + Vue + Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
 
@@ -6,7 +6,7 @@ A full-featured Framework7 + Vue + Webpack setup with hot-reload & css extractio
 
 1. Install dependencies: `npm install`
 2. Build first bundle: `npm run build`
-3. Create symlink: `./dist` --> `./cordova/www`. Example: **Windows:** `mklink /j .\cordova\www .\dist`. **Linux:** `ln -s .\dist .\cordova\www`.
+3. Create symlink: `./dist` --> `./cordova/www`. Example: **Windows:** `mklink /j ".\cordova\www" ".\dist"`. **Linux:** `ln -s .\dist .\cordova\www`.
 4. Add cordova platform: Ex.: `cordova platform add android`
 5. Develop! (`npm run dev` | `npm run build` | `cordova run android` | `cordova build android` )
 
