@@ -2,18 +2,14 @@
 
 A full-featured Framework7 + Vue + Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
 
-## Build Setup
+## First Build:
 
-``` bash
-# install dependencies
-npm install
+1. Install dependencies: `npm install`
+2. Build first bundle: `npm run build`
+3. Create symlink: `./dist` --> `./cordova/www`. Example: **Windows:** `mklink /j .\cordova\www .\dist`. **Linux:** `ln -s .\dist .\cordova\www`.
+4. Add cordova platform: Ex.: `cordova platform add android`
+5. Develop! (`npm run dev` | `npm run build` | `cordova run android` | `cordova build android` )
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
 
 ## Project Structure
 
@@ -24,3 +20,4 @@ npm run build
 * `src/main.js` - main app file where you include/import all required libs and init app
 * `src/routes.js` - app routes
 * `src/app.vue` - main app structure/component
+* `src/cordova` - cordova wrapper. All cordova actions take place here. Installing plugins and building app.
